@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+
+    .container{
+    
+    width: 80%;
+    max-width: 1024px;
+    background-color: white;
+   text-align: center;
+    }
+    
+
+.banner{
+
+    height: 400px;
+    background-image: url(../images/About.jpeg);
+    background-position: center;
+    background-size: cover;
+
+    
+    }
+
+
+    .THE-MISSION{
+
+       padding: 60px 0;
+       text-align: left;
+}
+.THE-MISSION h1{
+    padding-left: 50px;
+}
+
+
+    .why{
+
+    padding: 60px 0;
+    text-align: left;                
+}
+   
+.why h1{
+
+padding-left: 50px;
+
+}
+
+
+p{
+
+font-family: 'Montserrat';
+
+}
+
+h1{
+font-size: 1.7rem;
+font-family: 'montserrat';
+
+
+             }
+
+             h2{
+font-size: 1.4rem;
+color: rgb(87, 84, 84);
+padding-left: 50px;
+
+             }
+
+.btn-about{
+padding-bottom: 30px;
+}
+  
+
+
+
+    @media only screen and (max-width: 768px) {
+       
+        .packages{
+
+padding: 30px 0;
+
+}
+
+    .blogs{
+
+   padding: 30px 0;
+            
+    }
+   
+    .packages{
+
+    padding: 30px 0;
+                        
+     }
+
+.email-design{
+
+padding: 30px 0;
+    }
+
+ .SOCIAL-MEDIA{
+ padding: 30px 0;
+                    
+ }
+
+ .administration{
+    padding: 30px 0;
+                       
+    }
+
+
+    P{
+font-size: 1rem;
+
+    }
+    h2{
+
+        font-size: 1.3rem;
+        
+        
+         }
+ .btn{
+
+   
+    height: 40px;
+    width: 180px;
+    letter-spacing: 2px;
+    font-size: .7rem;
+    }
+
+ }
+   
+
+    

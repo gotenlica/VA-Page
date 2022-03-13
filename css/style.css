@@ -1,0 +1,389 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+
+
+*{
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+
+width: 80%;
+max-width: 1024px;
+margin: 0 auto;
+background-color: white;
+}
+
+.banner{
+
+height: 40vh;
+width: 100%;
+background-image: url(../images/desktop-office.jpeg);
+background-position: center;
+background-size: cover;
+
+}
+
+.info{
+
+text-align: center;
+line-height: 28.8px;
+padding: 30px 100px;
+width: 100%;
+
+}
+
+h2{
+font-family:'montserrat';
+padding: 30px;
+font-size: 2.2rem;
+color: black;
+line-height: 35px;
+}
+
+p{
+font-family:'montserrat';
+font-size: 20px;
+padding: 20px 50px;
+color: black;
+
+
+}
+.btn{
+
+cursor: pointer;
+height: 60px;
+width: 200px;
+border-radius: 25px;
+border: none;
+color: white;
+letter-spacing: 2.5px;
+background-color: rgb(224, 187, 161);
+}
+
+.btn:active{
+
+transform: scale(.9);
+}
+
+.btn:hover{
+
+  background-color:rgb(230, 156, 103);
+  }
+
+.section-2{
+width: 100%;
+padding: 20px 10px;
+
+}
+
+
+.services{
+
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 40px 10px;
+  align-items: center;
+  
+  } 
+
+.info-services{
+
+padding: 10px;
+
+}
+
+.img-services{
+
+width: 50%;
+
+}
+
+.services p{
+
+  font-size: 18px;
+  width: 100%;
+  }
+
+
+  .chat{
+
+    display: flex;
+  
+    text-align: center;
+    padding: 40px 10px;
+    align-items: center;
+    
+  }
+
+  .info-chat{
+
+    padding: 20px;
+
+  }
+
+  .chat p{
+
+    font-size: 18px;
+padding: 15px 40px;
+  
+  }
+
+
+
+.img-chat{
+ width: 50%;
+
+}
+
+
+.btn-2{
+  cursor: pointer;
+  height: 50px;
+  width: 160px;
+  border-radius: 25px;
+  background-color: rgb(224, 187, 161);
+  border: none;
+  color: white;
+  letter-spacing: 2.1px;
+  font-size: 10px;
+  }
+
+
+  .btn-2:active{
+
+    transform: scale(.9);
+    
+    }
+
+    .btn-2:hover{
+
+      background-color:rgb(230, 156, 103);
+      }
+
+
+
+  h3{
+    font-family:'montserrat';
+    font-size: 17px;
+    color: black
+  }
+
+
+  .galeria{
+
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+padding: 40px 20px;
+grid-gap: 5px;
+  }
+
+.pic-gallery img{
+  height: 100%;
+  width: 100%;
+
+
+  }
+
+
+  .contact{
+background-color: rgb(247, 248, 244);
+width: 100%;
+text-align: center;
+padding: 100px 0 100px 0;
+  }
+
+
+h4{
+font-size: 25px;
+letter-spacing: 5px;
+
+}
+
+.contact p{
+
+font-size: 15px;
+
+}
+
+
+ .btn-sign{
+margin: 30px 0;
+height: 50px;
+width: 120px;
+background-color: rgb(26, 25, 25);
+color: white;
+font-family: fantasy;
+cursor: pointer;
+font-size: 16px;
+
+ } 
+
+.btn-sign:active{
+
+transform: scale(.6);
+
+}
+
+.btn-sign:hover{
+
+  background-color:rgb(77, 74, 74);
+  }
+
+
+
+footer{
+
+height: 200px;
+background-color: rgb(26, 25, 25);
+text-align: center;
+padding-top: 50px;
+
+}
+
+.fab{
+padding: 20px;
+color: white;
+
+}
+.fas{
+
+  background-color: black;
+color: white;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 740px) {
+   
+
+.menu-btn{
+
+position:absolute;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  right: 30px;
+  
+
+}
+
+
+
+/*Animation*/
+
+
+  .container{
+
+    width: 100%;
+    margin: 0 auto;
+   
+    }
+
+  .links{
+ 
+
+text-align: right;
+
+
+
+    }
+
+}
+
+
+  .info{
+
+    text-align: center;
+    line-height: 28.8px;
+    padding: 50px 0;
+    width: 100%;
+    
+    }
+
+    .info p{
+
+      font-size: 1rem;
+    }
+
+
+  .btn-nav-bar{
+height: 30px;
+    border-radius: 25px;
+    background-color:transparent;
+    cursor: pointer;
+    font-size: .5rem;
+    color: black;
+  
+  }
+      
+
+  .services{
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    padding: 30px 20px;
+    
+    }
+
+    .info-services p{
+font-size: 1rem;
+
+    }
+
+    .img-services{
+      width: 100%;
+      
+      }
+ 
+
+    .chat{
+
+  display:flex;
+  flex-direction:column-reverse;
+    width: 100%;
+    padding: 30px 20px;
+    }
+  
+    .img-chat{
+      width: 100%;
+      
+    }
+
+    .info-chat p{
+      font-size: 1rem;
+
+    }
+
+    .galeria{
+
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 40px 10px;
+      
+        }
+
+        .pic-gallery img{
+         width: 100%;
+        
+        
+          }
+
+
+
+          
+        
+      
+
+
+  
+

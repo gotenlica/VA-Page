@@ -1,0 +1,130 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+
+
+.nav-bar{
+    position: sticky;
+    top: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 30px;
+    background-color: #fff;
+}
+
+
+.logo{
+ 
+    color: black;
+    width: 25%;
+    text-decoration: none;
+    font-size: 1.5rem;
+  
+}
+
+.logo:hover{
+    font-size: 1.8rem; 
+}
+
+
+.menu a:hover{
+   font-size: 1.3rem;
+}
+
+
+
+.menu a{
+   
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+label{
+   
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    color: white;
+    }
+
+    
+    
+    #toggle{
+    
+    display: none;
+   
+    }
+
+
+/*  Media Queries  */
+
+
+@media only screen and (max-width:700px) {
+  
+    
+
+    .nav-bar{
+
+     height: 80px;    
+  
+    }
+
+    .logo{
+        width: 70%;
+    }
+    .logo:hover{
+        font-size: 1.5.3rem;
+    }
+
+    .menu a:hover{
+        font-size: 1.1rem;
+    }
+
+
+    label{
+        font-size: 50px;
+        color: black;
+        display: block;
+        cursor: pointer;
+  
+        }
+
+label:active{
+transform: scale(.7);
+
+
+}
+
+        .menu{
+         
+        width: 15%;
+        display:none;
+        text-align: center;
+       
+        }
+
+        .menu a{
+        padding: 3px;
+        font-size: .8rem;
+        display:block;
+        margin: 0;
+        color: black;
+        }
+
+
+        
+        #toggle:checked + .menu{
+        
+            display: block;
+    
+        }
+        
+        
+        
+
+}
+
+   
